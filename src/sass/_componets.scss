@@ -1,0 +1,118 @@
+.btn-element{
+    padding: .5rem 1rem;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+    // animation-name: btn-effect;
+    //     animation-duration: 1.5s;
+    //     animation-iteration-count: infinite;
+
+    &-big{
+        padding: .5rem 2rem;
+    }
+    &::first-letter{
+        text-transform: uppercase;
+    }
+
+    &[element-type='bug']{
+        background: rgb(84, 139, 13);
+        color: #fff;
+    }
+    &[element-type='dragon']{
+        background-image: linear-gradient(to right bottom, #5dd4f1, #e66f41);
+        color: #fff;
+    }
+    &[element-type='fairy']{
+        background: rgb(241, 194, 245);
+        color: #000;
+    }
+    &[element-type='fire']{
+        background: rgb(238, 130, 7);
+        color: #000;
+    }
+    &[element-type='ghost']{
+        background: rgb(126, 81, 209);
+        color: #fff;
+    }
+    &[element-type='ground']{
+        background-image: linear-gradient(to right bottom, #d6e92b, #9c7d5a);
+        color: #fff;
+    }
+    &[element-type='normal']{
+        background: rgb(192, 192, 192);
+        color: #000;
+    }
+    &[element-type='psychic']{
+        background: rgb(211, 91, 241);
+        color: #000;
+    }
+    &[element-type='steel']{
+        background: rgb(111, 153, 180);
+        color: #fff;
+    }
+    &[element-type='dark']{
+        background: rgb(92, 91, 91);
+        color: #fff;
+    }
+    &[element-type='electric']{
+        background: #d6e92b;
+        color: #000;
+    }
+    &[element-type='fighting']{
+        background: #d69d22;
+        color: #000;
+    }
+    &[element-type='flying']{
+        background-image: linear-gradient(to right bottom, #2be9e0, #a8a6a3);
+        color: #fff;
+    }
+    &[element-type='grass']{
+        background: rgb(137, 228, 18);
+        color: #000;
+    }
+    &[element-type='ice']{
+        background: #2be9e0;
+        color: #000;
+    }
+    &[element-type='poison']{
+        background: #512d69;
+        color: #fff;
+    }
+    &[element-type='rock']{
+        background: #5a4112;
+        color: #fff;
+    }
+    &[element-type='water']{
+        background: #3894df;
+        color: #fff;
+    }
+
+
+    @keyframes btn-effect {
+        0%{
+            transform: scale(1);
+        }
+        50%{
+            transform: scale(1.05);
+        }
+        
+        100%{
+            transform: scale(1);
+        }
+    }
+
+    // &:hover::before{
+    //     transform: translateX(280px);
+    //     background:white;
+        
+    //     transition: all 2s linear;
+    // }
+
+    
+
+}
+
+  
+  
